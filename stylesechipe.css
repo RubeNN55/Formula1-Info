@@ -13,7 +13,7 @@
     margin-top: 5%;
   }
   body {
-    color: #35008b;
+    color: #ffffff;
     background-color: black;
 
   }
@@ -187,136 +187,18 @@
     --bg-secondary: #141418;
   }
   
-  .light {
-    --text-primary: #1f1f1f;
-    --text-secondary: #000000;
-    --bg-primary: #ffffff;
-    --bg-secondary: #e4e4e4;
-  }
-  
-  .solar {
-    --text-primary: #576e75;
-    --text-secondary: #35535c;
-    --bg-primary: #fdf6e3;
-    --bg-secondary: #f5e5b8;
-  }
-  
-  .theme-icon {
-    display: none;
-  }
-  
-  .dark #darkIcon {
-    display: block;
-  }
-  
-  .light #lightIcon {
-    display: block;
-  }
-  
-  .solar #solarIcon {
-    display: block;
-  }
+.video{
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  card {
-    background-color: black;
-    font-family: "Poppins", sans-serif;
-    display: flex;
+  position: absolute;
+  margin-left: 1200px;
+  overflow: hidden;
+  ;
+}
 
-    align-items: center;
-    min-height: 100vh;
-    width: auto;
-    text-align: center;
-  }
-  
-  .grid {
-
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 5%;
-    grid-gap: 5rem;
-    display: flex;
-    width: auto;
-    justify-content: center  ;    
-    text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .grid-item {
-    background-color: #35008b;
-    border-radius: 0.4rem;
-    overflow: hidden;
-    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: 0.2s;
-  }
-  
-  .grid-item:hover {
-    transform: translateY(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
-  }
-  
-  .card-img {
-    display: block;
-    width: auto;
-    height: 15rem;
-    object-fit: cover;
-  }
-  
-  .card-content {
-    padding: 2rem;
-  }
-  
-  .card-header {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #0d0d0d;
-    margin-bottom: 1.5rem;
-  }
-  
-  
-  .card-btn {
-    display: block;
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 2rem;
-    text-align: center;
-    color: #3363ff;
-    background-color: gray;
-    border: none;
-    border-radius: 0.4rem;
-    transition: 0.2s;
-    cursor: pointer;
-    letter-spacing: 0.1rem;
-  }
-  
-  .card-btn span {
-    margin-left: 1rem;
-    transition: 0.2s;
-  }
-  
-  .card-btn:hover,
-  .card-btn:active {
-    background-color: #c2cffc;
-  }
-  
-  .card-btn:hover span,
-  .card-btn:active span {
-    margin-left: 1.5rem;
-  }
-  
-  @media only screen and (max-width: 60em) {
-    body {
-      padding: 5rem;
-    }
-  
-    .grid {
-      grid-gap: 2rem;
-    }
+.titluri{
+  margin-left: 200px;
+  padding: 0;
+}
+pre{
+  font-size: 17.5px;
 }
